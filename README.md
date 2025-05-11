@@ -40,9 +40,6 @@ User rules allow you to provide Global guidance to the Cursor Agent. They apply 
 
 Below is a good starter set of User Rules that have worked for most of my projects ( sorted in order of importance ):
 
-<details>
-    <summary>➡️️ CLICK TO EXPAND: User Rules</summary>
-
 ```markdown
 - Ask for clarification if feature scope or requirements are unclear.
 - Only implement the functionality we’ve discussed; don’t add scaffold or demo code.
@@ -63,7 +60,6 @@ Below is a good starter set of User Rules that have worked for most of my projec
 - If a file named `project-specs.md` exists at the project root, always load its contents at startup and treat it as the authoritative source for conventions, folder structure, tech choices, and design decisions.
 - When you introduce or modify any convention, dependency, folder structure, or feature in code, update `project-specs.md` if it exists to reflect that change—keeping its prose concise while capturing all relevant information.
 ```
-</details>
 
 **NOTE**: I have noticed that Cursor does not always follow these rules, but it does most of the time. So just be on the lookout for the times Cursor gets creative.
 
@@ -82,8 +78,7 @@ There are four main sections we can provide in this document that will go a long
 3. **Folder Structure** – A summarized list of key folders and their roles in the project, presented as relative paths with descriptions.
 4. **Conventions** – Team-specific practices or rules (e.g., coding style, file naming conventions, comment expectations).
 
-<details>
-    <summary>➡️️ CLICK TO EXPAND: Sample project-specs.md</summary>
+### Sample project-specs.md
 
 ```markdown
 # Project Specs
@@ -121,7 +116,6 @@ A travel blog platform powered by Storyblok and AI chat features supported by AW
 - Use co-location: components and their styles or subparts live in the same folder unless reused globally.
 - Storyblok content is fetched and parsed using `fetchStory.ts` and related utilities.
 ```
-</details>
 
 ### ChatGPT Agent
 
