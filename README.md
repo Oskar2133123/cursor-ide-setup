@@ -1,6 +1,6 @@
 # Cursor IDE Setup Guide
 
-This guide provides best practices for configuring Cursor IDE to maximize the efficiency and accuracy of its AI-assisted coding features.
+This guide provides best practices for configuring [Cursor IDE](https://cursor.com/) to maximize the efficiency and accuracy of its AI-assisted coding features.
 
 ## Table of Contents
 
@@ -32,7 +32,7 @@ Enable `Thinking` model, and choose `claude-3.7-sonnet`
 
 ## User Rules
 
-User rules allow you to provide Global guidance to the Cursor Agent. They apply to all projects and are always included in your model context.
+[User Rules](https://docs.cursor.com/context/rules#user-rules) allow you to provide Global guidance to the Cursor Agent. They apply to all projects and are always included in your model context.
 
 ### Update Setting
 
@@ -65,7 +65,7 @@ Below is a good starter set of User Rules that have worked for most of my projec
 
 ## Project Specs File
 
-The Cursor AI Agent cannot edit Cursor User Rules, but can change a local project file. Knowing this, let's create a new file that gives Cursor more context for our project.
+The Cursor AI Agent cannot edit Cursor [User Rules](https://docs.cursor.com/context/rules#user-rules) or [Project Rules](https://docs.cursor.com/context/rules#project-rules), but can change a local project file. Knowing this, let's create a new file that gives Cursor more context for our project.
 
 In the **User Rules** section above, you might have seen a file named `project-specs.md` mentioned. This custom file we are creating in the root of our project helps provide the missing context that the AI can use to help make better decisions.
 
