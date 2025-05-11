@@ -1,4 +1,4 @@
-# Cursor Setup
+# Cursor IDE Setup
 
 When working on a new.
 
@@ -37,7 +37,7 @@ User rules allow you to provide Global guidance to the Cursor Agent. They apply 
 Here is a good starter set of User Rules that have worked for most of my projects ( sorted in order of importance ):
 
 <details>
-    <summary>**View:** `User Rules`</summary>
+    <summary>➡️️ View: User Rules</summary>
 
 ```markdown
 - Ask for clarification if feature scope or requirements are unclear.
@@ -79,7 +79,7 @@ There are four main sections we can provide in this document that will go a long
 4. **Conventions** – Team-specific practices or rules (e.g., coding style, file naming conventions, comment expectations).
 
 <details>
-    <summary>**Sample:** `project-specs.md`</summary>
+    <summary>➡️️ Sample: project-specs.md</summary>
 
 ```markdown
 # Project Specs
@@ -123,4 +123,4 @@ A travel blog platform powered by Storyblok and AI chat features supported by AW
 
 I have created the following ChatGPT Agent you can use to create this file:
 
-[Cursor Specs Generator](https://chatgpt.com/g/g-68204e69a43881919580f0fed0a2a72a-cursor-specs-generator)
+[![Cursor Specs Generator](https://img.shields.io/badge/Cursor_Specs_Generator-169BD7.svg?logo=samsclub&logoColor=white&style=for-the-badge "Cursor Specs Generator")]([https://peterschmalfeldt.com](https://chatgpt.com/g/g-68204e69a43881919580f0fed0a2a72a-cursor-specs-generator))
