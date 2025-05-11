@@ -12,7 +12,7 @@ This guide provides best practices for configuring Cursor IDE to maximize the ef
 
 ## Use a Thinking Model
 
-I have found that I get significantly better results when I disable Cursors "Auto-select" Agent model and use a "Thinking" model instead. While it is a bit slower, it yields more accurate results, especially when working with complex code.
+I have found that I get significantly better results when I disable Cursors **default** "Auto-select" Agent model and use a "Thinking" model instead. While it is a bit slower, it yields more accurate results, especially when working with complex code.
 
 This solution works well, as it instructs Cursor to generate ideas and to analyze them **before** generating any solutions. Non-thinking models, which you will likely get when you have `Auto-select` enabled, will spit out the first solution they come up with, vs. selecting the best one from the possible solutions it detected. Enabling this "Thinking" mode also allows you, as a developer, to "see" what the AI Model is considering, giving you amazing insight into how AI approaches solving your problem.
 
