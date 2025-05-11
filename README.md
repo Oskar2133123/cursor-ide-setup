@@ -12,9 +12,9 @@ This guide provides best practices for configuring Cursor IDE to maximize the ef
 
 ## Use a Thinking Model
 
-I have found that I get significantly better results when I disable Cursors "Auto-select" Agent model and use a "Thinking" model instead. While it is a bit slower, it yields way more accurate results, especially if you are working with complex code.
+I have found that I get significantly better results when I disable Cursors "Auto-select" Agent model and use a "Thinking" model instead. While it is a bit slower, it yields more accurate results, especially when working with complex code.
 
-This solution works well, as it instructs Cursor to generate ideas and to analyze them **before** generating any solutions. Non-thinking models, which you will likely get when you have `Auto-select` enabled will spit out the first solution they come up with vs. selecting the best one from possible solutions it detected. Enabling this "Thinking" mode also allows you, as a developer, to "see" what the AI Model is considering, which can give you amazing insight into how AI is approaching solving your problem.
+This solution works well, as it instructs Cursor to generate ideas and to analyze them **before** generating any solutions. Non-thinking models, which you will likely get when you have `Auto-select` enabled, will spit out the first solution they come up with, vs. selecting the best one from the possible solutions it detected. Enabling this "Thinking" mode also allows you, as a developer, to "see" what the AI Model is considering, giving you amazing insight into how AI approaches solving your problem.
 
 ### How to Enable the Thinking Model
 
@@ -38,7 +38,7 @@ User rules allow you to provide Global guidance to the Cursor Agent. They apply 
 
 > Cursor › Settings... › Cursor Settings › Rules › User Rules
 
-Here is a good starter set of User Rules that have worked for most of my projects ( sorted in order of importance ):
+Below is a good starter set of User Rules that have worked for most of my projects ( sorted in order of importance ):
 
 <details>
     <summary>➡️️ View: User Rules</summary>
@@ -65,15 +65,15 @@ Here is a good starter set of User Rules that have worked for most of my project
 ```
 </details>
 
-**NOTE**: I have noticed that Cursor does not always follow these rules, but most of the time it does. So just be on the lookup for the times Cursor gets ... creative.
+**NOTE**: I have noticed that Cursor does not always follow these rules, but it does most of the time. So just be on the lookout for the times Cursor gets creative.
 
 ## Project Specs File
 
-Cursors AI Agent cannot edit Cursor User Rules, but it can make changes to a local project file. Knowing this, let's create a new file that gives Cursor a bit more context into our project.
+The Cursor AI Agent cannot edit Cursor User Rules, but can change a local project file. Knowing this, let's create a new file that gives Cursor more context for our project.
 
-In the **User Rules** section above, you might have seen mention of a file named `project-specs.md`. This is a custom file we are creating in the root of our project to help provide the missing context the AI can use to help make better decisions.
+In the **User Rules** section above, you might have seen a file named `project-specs.md` mentioned. This custom file we are creating in the root of our project helps provide the missing context that the AI can use to help make better decisions.
 
-When leveraging AI within Cursor, it has limited context about your project, which can make it difficult for AI to make the correct choices. We can assist Cursors AI Agent by providing it additional context.
+When leveraging AI within Cursor, your project's context is limited, making it difficult for AI to make the correct choices. We can assist the Cursor AI Agent by providing additional context.
 
 There are four main sections we can provide in this document that will go a long way towards helping Cursor know a bit more about our project:
 
@@ -125,17 +125,17 @@ A travel blog platform powered by Storyblok and AI chat features supported by AW
 
 ### ChatGPT Agent
 
-I have created the following ChatGPT Agent you can use to create this file:
+I have created the following ChatGPT Agent, which you can use to create this file:
 
 [![Cursor Specs Generator](https://img.shields.io/badge/Cursor_Specs_Generator-169BD7.svg?logo=samsclub&logoColor=white&style=for-the-badge "Cursor Specs Generator")]([https://peterschmalfeldt.com](https://chatgpt.com/g/g-68204e69a43881919580f0fed0a2a72a-cursor-specs-generator))
 
 ## Setting Up MCP Servers
 
-Cursor also supports Seamless MCP Integration. What is an MCP you ask? Great Question:
+Cursor also supports seamless MCP integration. What is an MCP, you ask? Great Question:
 
-**Model Context Protocol** (MCP) is a system that lets AI tools, like Cursor IDE, connect directly to external resources—such as databases, code repositories, or web applications—to provide richer context and smarter suggestions. Think of MCP as a “bridge” allowing an AI coding assistant to “see” what’s happening inside your other tools or applications. By accessing this extra context, the AI can help you write better code, spot errors quickly, and streamline tasks you’d usually handle manually.
+**Model Context Protocol** (MCP) is a system that lets AI tools, like Cursor IDE, connect directly to external resources, such as databases, code repositories, or web applications, to provide richer context and smarter suggestions. Consider MCP a “bridge” allowing an AI coding assistant to “see” what’s happening inside your other tools or applications. By accessing this extra context, the AI can help you write better code, spot errors quickly, and manually streamline tasks you’d usually handle.
 
-There are many wonderful MCP Servers ready for use, here are a few of my favorite to get you started:
+There are many excellent MCP Servers ready for use. Here are a few of my favorites to get you started:
 
 - [Node.js Debugger](https://github.com/hyperdrive-eng/mcp-nodejs-debugger)
 - [Typescript](https://github.com/modelcontextprotocol/typescript-sdk)
