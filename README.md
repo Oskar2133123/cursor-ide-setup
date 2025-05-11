@@ -41,7 +41,7 @@ User rules allow you to provide Global guidance to the Cursor Agent. They apply 
 Below is a good starter set of User Rules that have worked for most of my projects ( sorted in order of importance ):
 
 <details>
-    <summary>➡️️ View: User Rules</summary>
+    <summary>➡️️ CLICK TO EXPAND: User Rules</summary>
 
 ```markdown
 - Ask for clarification if feature scope or requirements are unclear.
@@ -83,7 +83,7 @@ There are four main sections we can provide in this document that will go a long
 4. **Conventions** – Team-specific practices or rules (e.g., coding style, file naming conventions, comment expectations).
 
 <details>
-    <summary>➡️️ Sample: project-specs.md</summary>
+    <summary>➡️️ CLICK TO EXPAND: Sample project-specs.md</summary>
 
 ```markdown
 # Project Specs
