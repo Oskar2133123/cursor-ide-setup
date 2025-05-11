@@ -1,7 +1,5 @@
 # Cursor IDE Setup
 
-When working on a new.
-
 - [X] [Use a Thinking Model](#use-a-thinking-model)
 - [X] [User Rules](#user-rules)
 - [X] [Project Specs File](#project-specs-file)
