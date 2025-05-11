@@ -1,8 +1,14 @@
-# Cursor IDE Setup
+# Cursor IDE Setup Guide
+
+This guide provides best practices for configuring Cursor IDE to maximize the efficiency and accuracy of its AI-assisted coding features.
+
+## Table of Contents
 
 - [X] [Use a Thinking Model](#use-a-thinking-model)
 - [X] [User Rules](#user-rules)
 - [X] [Project Specs File](#project-specs-file)
+- [X] [Setting Up MCP Servers](#setting-up-mcp-servers)
+- [X] [Conclusion](#conclusion)
 
 ## Use a Thinking Model
 
@@ -10,7 +16,7 @@ I have found that I get significantly better results when I disable Cursors "Aut
 
 This solution works well, as it instructs Cursor to generate ideas and to analyze them **before** generating any solutions. Non-thinking models, which you will likely get when you have `Auto-select` enabled will spit out the first solution they come up with vs. selecting the best one from possible solutions it detected. Enabling this "Thinking" mode also allows you, as a developer, to "see" what the AI Model is considering, which can give you amazing insight into how AI is approaching solving your problem.
 
-### Instructions
+### How to Enable the Thinking Model
 
 Open Model Selection Menu:
 
@@ -122,3 +128,21 @@ A travel blog platform powered by Storyblok and AI chat features supported by AW
 I have created the following ChatGPT Agent you can use to create this file:
 
 [![Cursor Specs Generator](https://img.shields.io/badge/Cursor_Specs_Generator-169BD7.svg?logo=samsclub&logoColor=white&style=for-the-badge "Cursor Specs Generator")]([https://peterschmalfeldt.com](https://chatgpt.com/g/g-68204e69a43881919580f0fed0a2a72a-cursor-specs-generator))
+
+## Setting Up MCP Servers
+
+Cursor also supports Seamless MCP Integration. What is an MCP you ask? Great Question:
+
+**Model Context Protocol** (MCP) is a system that lets AI tools, like Cursor IDE, connect directly to external resources—such as databases, code repositories, or web applications—to provide richer context and smarter suggestions. Think of MCP as a “bridge” allowing an AI coding assistant to “see” what’s happening inside your other tools or applications. By accessing this extra context, the AI can help you write better code, spot errors quickly, and streamline tasks you’d usually handle manually.
+
+There are many wonderful MCP Servers ready for use, here are a few of my favorite to get you started:
+
+- [Node.js Debugger](https://github.com/hyperdrive-eng/mcp-nodejs-debugger)
+- [Typescript](https://github.com/modelcontextprotocol/typescript-sdk)
+- [Python](https://github.com/modelcontextprotocol/python-sdk)
+
+The [Model Context Protocol GitHub Organization](https://github.com/modelcontextprotocol) has a lot more to choose from.
+
+## Conclusion
+
+By customizing Cursor IDE with a Thinking model, clear user rules, and a comprehensive project specs file, developers can significantly enhance their coding experience, making it more efficient and accurate.
